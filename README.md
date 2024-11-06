@@ -67,7 +67,7 @@ while (matcher.find()) {
            }
        }.execute();
    }
-```
+
 
 2. **Handle Local Emoji Resources**:
    - If the match is not a URL, assume it’s an ID corresponding to a drawable resource.
@@ -86,7 +86,7 @@ while (matcher.find()) {
            spannable.setSpan(new ImageSpan(emojiDrawable, ImageSpan.ALIGN_BOTTOM), start, end, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
        }
    }
-```
+
 
 #### Step 3: Apply the Modified Text
 
